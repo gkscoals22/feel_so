@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/str_home"
+        android:enabled="true"
+        android:icon="@drawable/home_black"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/str_community"
+        android:enabled="true"
+        android:icon="@drawable/people_black"
+        android:title="커뮤니티"/>
+
+    <item
+        android:id="@+id/str_drug_store"
+        android:enabled="true"
+        android:icon="@drawable/store_black"
+        android:title="약국"/>
+
+    <item
+        android:id="@+id/str_medicine_check"
+        android:enabled="true"
+        android:icon="@drawable/check_black"
+        android:title="복약 체크"/>
+
+</menu>
