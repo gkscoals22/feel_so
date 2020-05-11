@@ -12,7 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private BottomNavigationView bottomNavigationView; // 바텀 네비게이션 뷰
+    private BottomNavigationView bottomNavigationView; // 네비게이션 뷰
     private FragmentManager fm;
     private FragmentTransaction ft;
     private home_fragment frag1;
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //해당 영엉 클릭 시 프레그먼트 이동 함수
         bottomNavigationView = findViewById(R.id.bottomNavi);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener()
         {
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         setFrag(0); // 첫 프래그먼트 화면 지정
     }
 
-    // 프레그먼트 교체
+    // 프레그먼트 교체 함수 구현
     private void setFrag(int n)
     {
         fm = getSupportFragmentManager();
