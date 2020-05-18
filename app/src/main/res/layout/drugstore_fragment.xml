@@ -1,19 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:stretchColumns="*"
     tools:context=".MainActivity"
     tools:ignore="MissingDefaultResource">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="drug store"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableRow>
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textColor="#000000"
+            android:layout_span="3"
+            android:textSize="30sp" />
+        <ImageView
+            android:id="@+id/imageview11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="fitEnd"
+            />
+    </TableRow>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageview10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:adjustViewBounds="true"
+            android:layout_span="6"
+            android:scaleType="fitCenter"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageview4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageview7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageview9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_span="2"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            />
+    </TableRow>
+</TableLayout>
