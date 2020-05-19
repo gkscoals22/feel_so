@@ -8,10 +8,11 @@
     tools:context=".MainActivity"
     tools:ignore="MissingDefaultResource">
 
-    <TableRow>
+    <TableRow
+        android:layout_weight="1">
         <TextView
             android:id="@+id/textview"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
             android:textColor="#000000"
@@ -19,35 +20,37 @@
             android:textSize="30sp" />
         <ImageView
             android:id="@+id/imageview11"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:layout_margin="10dp"
+            android:layout_margin="12dp"
+            android:layout_gravity="right"
             android:scaleType="fitEnd"
             />
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:layout_weight="0.5">
         <ImageView
             android:id="@+id/imageview10"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:adjustViewBounds="true"
             android:layout_span="6"
             android:scaleType="fitCenter"
             />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:layout_weight="2">
         <ImageView
             android:id="@+id/imageview"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview2"
@@ -55,8 +58,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview3"
@@ -64,19 +66,18 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:layout_weight="2">
         <ImageView
             android:id="@+id/imageview4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview5"
@@ -84,8 +85,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview6"
@@ -93,19 +93,18 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
     </TableRow>
-    <TableRow>
+    <TableRow
+        android:layout_weight="2">
         <ImageView
             android:id="@+id/imageview7"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview8"
@@ -113,8 +112,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
         <ImageView
             android:id="@+id/imageview9"
@@ -122,8 +120,7 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:layout_span="2"
-            android:scaleType="centerInside"
-            android:padding="10dp"
+            android:scaleType="fitCenter"
             />
     </TableRow>
 </TableLayout>

@@ -42,14 +42,14 @@ public class drugstore_fragment extends Fragment // Fragment 클래스를 상속
 
 //         drawable에 있는 이미지를 지정합니다.
         imageView.setImageResource(R.drawable.store_menu1);
-        imageView2.setImageResource(R.drawable.store_menu1);
-        imageView3.setImageResource(R.drawable.store_menu1);
-        imageView4.setImageResource(R.drawable.store_menu1);
-        imageView5.setImageResource(R.drawable.store_menu1);
-        imageView6.setImageResource(R.drawable.store_menu1);
-        imageView7.setImageResource(R.drawable.store_menu1);
-        imageView8.setImageResource(R.drawable.store_menu1);
-        imageView9.setImageResource(R.drawable.store_menu1);
+        imageView2.setImageResource(R.drawable.store_menu2);
+        imageView3.setImageResource(R.drawable.store_menu3);
+        imageView4.setImageResource(R.drawable.store_menu4);
+        imageView5.setImageResource(R.drawable.store_menu5);
+        imageView6.setImageResource(R.drawable.store_menu6);
+        imageView7.setImageResource(R.drawable.store_menu7);
+        imageView8.setImageResource(R.drawable.store_menu8);
+        imageView9.setImageResource(R.drawable.store_menu9);
         imageView10.setImageResource(R.drawable.store_menu_question);
         imageView11.setImageResource(R.drawable.profile_image);
 
